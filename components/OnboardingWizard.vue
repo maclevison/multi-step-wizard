@@ -46,11 +46,11 @@ const updateFormData = (field, value) => {
 <template>
   <div class="max-w-2xl mx-auto p-6 space-y-6">
     <div class="space-y-2">
-      <h1 class="text-3xl font-bold">Welcome to Our SaaS Platform</h1>
+      <h1 class="text-3xl font-bold">Welcome to Our Platform</h1>
       <p class="text-gray-600">Let's get you set up in just a few steps.</p>
     </div>
     
-    <div class="flex justify-between mb-4">
+    <div class="flex justify-between mb-4 gap-1">
       <div 
         v-for="i in 5" 
         :key="i" 
